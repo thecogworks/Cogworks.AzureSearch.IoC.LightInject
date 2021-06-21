@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/thecogworks/Cogworks.AzureSearch.IoC.LightInject/compare/1.0.2...1.0.3) (2021-06-21)
+
+
+### Bug Fixes
+
+* downgraded lightinject version ([7ffa0f5](https://github.com/thecogworks/Cogworks.AzureSearch.IoC.LightInject/commit/7ffa0f51f69dc8249a63a07e01bdd9c0d1aab933))
+
+
+
 ## [1.0.2](https://github.com/thecogworks/Cogworks.AzureSearch.IoC.LightInject/compare/1.0.1...1.0.2) (2021-06-21)
 
 
