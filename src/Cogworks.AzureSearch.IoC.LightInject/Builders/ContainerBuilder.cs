@@ -43,13 +43,14 @@ namespace Cogworks.AzureSearch.IoC.LightInject.Builders
             return this;
         }
 
-        public IContainerBuilder RegisterClientOptions(string serviceName, string credentials, string serviceEndpointUrl)
+        public IContainerBuilder RegisterClientOptions(string serviceName, string credentials, string serviceEndpointUrl, bool searchHeaders = false)
         {
             _ = _container.Register(
                 _ => new ClientOption(
                     serviceName,
                     credentials,
-                    serviceEndpointUrl),
+                    serviceEndpointUrl,
+                    searchHeaders),
                 new PerContainerLifetime());
 
             return this;

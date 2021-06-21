@@ -15,7 +15,7 @@
     <tags>Azure Search, LightInject, container, IoC</tags>
     <dependencies>
       <group targetFramework="netstandard2.0">
-        <dependency id="Cogworks.AzureSearch" version="1.0.0" />
+        <dependency id="Cogworks.AzureSearch" version="1.0.2" />
         <dependency id="LightInject" version="6.3.4" />
       </group>
     </dependencies>
